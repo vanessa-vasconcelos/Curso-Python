@@ -1,1 +1,1 @@
-print(nome[indice])
+32175678032

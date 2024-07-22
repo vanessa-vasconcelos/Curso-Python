@@ -1,16 +1,18 @@
 #Exercício - Adiando execução de funções
 
-def soma(x):
-  return x + soma_sempre_cinco
+def soma(x, y):
+  return x + y
 
-def multiplica(x):
-  return x * multiplica_sempre_dez
+def multiplica(x, y):
+  return x * y
 
-def criar_funcao(funcao, *args):
-  return funcao(*args)
+def criar_funcao(funcao, x):
+  def interna(y):
+    return funcao(x, y)
+  return interna
 
-def soma_sempre_cinco(x):
-  return x + 5
 
-def multiplica_sempre_dez(x):
-  return x * 10
+soma_com_cinco = criar_funcao(soma, 5)
+multiplica_sempre_por_dez = criar_funcao(multiplica, 10)
+print(soma_com_cinco(10))
+print(multiplica_sempre_por_dez(10))

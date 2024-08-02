@@ -15,7 +15,7 @@
 # @staticmethod e @method como abstratos, para isso
 # use @abstractmethod como decorator mais interno.
 # FOO - Bar são palavras usadas como placeholder para palavras que podem mudar na programação
-
+#Classes abstradas:são apenas um tipo abstrato  de como as classes que a herdarem devem se comportar.
 from abc import ABC, abstractmethod
 
 #class Log(metaclass=ABCMeta)

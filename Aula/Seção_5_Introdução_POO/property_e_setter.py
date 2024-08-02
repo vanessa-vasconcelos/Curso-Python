@@ -6,8 +6,10 @@
 # Atributos que começar com um ou dois underlines
 # não devem ser usados fora da classe.
 
-# O método getter é responsável por retornar o valor da propriedade quando ela é acessada.
+# O método getter é responsável por retornar o valor da propriedade quando ela é acessada. 
+# PEGAR O VALOR
 # O método setter, por sua vez, é usado para definir o valor da propriedade quando ela é modificada.
+#DEFINIR O VALOR
 
 class Caneta: 
   def __init__(self, cor):

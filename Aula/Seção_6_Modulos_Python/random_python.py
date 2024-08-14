@@ -11,7 +11,7 @@ import random
 # seed
 #   -> Inicializa o gerador de random (por isso "números pseudoaleatórios")
 # random.seed(0)
-random.seed(0)
+# random.seed
 
 # random.randrange(início, fim, passo)
 #   -> Gera um número inteiro aleatório dentro de um intervalo específico
